@@ -1,10 +1,10 @@
 ---
-title: "lista de juego con json"
+title: "Lista de Juegos con JSON"
 layout: post
 date: 2025-02-23
 image: /assets/images/project.jpg
 headerImage: false
-tag:
+tags:
 - json
 star: true
 category: blog
@@ -22,4 +22,3 @@ description: Descripción del nuevo proyecto de aplicación web
         </div>
     {% endfor %}
 </div>
-
