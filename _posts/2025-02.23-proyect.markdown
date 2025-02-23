@@ -4,8 +4,8 @@ layout: post
 date: 2025-02-23
 image: /assets/images/project.jpg
 headerImage: false
-tag:
-- proyects
+tags:
+- proyecto
 - desarrollo
 star: true
 category: blog

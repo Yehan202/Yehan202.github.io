@@ -1,5 +1,5 @@
 # main text of home
-title: Yehan
+title: Yehan's Blog
 bio: Estudiante de segundo de asir
 
 # twitter summary info
@@ -42,9 +42,9 @@ github: /Yehan202/Yehan202.github.io
 authors:
   Yehan:
     name: Yehan
-    bio: estudian de de segundo de asir
+    bio: Estudiante de segundo de ASIR
     external-image: false
-    picture: /assets/images/profile.jpg
+    picture: assets/images/profile.jpg
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
