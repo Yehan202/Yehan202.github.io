@@ -1,29 +1,25 @@
 ---
-title: "Proyecto: Mi Aplicación Web"
+title: "lista de juego con json"
 layout: post
 date: 2025-02-23
 image: /assets/images/project.jpg
 headerImage: false
-tags:
-- proyecto
-- desarrollo
+tag:
+- json
 star: true
 category: blog
 author: Yehan
 description: Descripción del nuevo proyecto de aplicación web
 ---
 
-## Nuevo Proyecto: Mi Aplicación Web
-
-Estoy emocionado de anunciar mi nuevo proyecto: una aplicación web innovadora que ayudará a los usuarios a gestionar sus tareas de manera eficiente. Este proyecto ha sido un trabajo de amor y dedicación, y estoy orgulloso de compartirlo con ustedes.
-
-### Enlace al Proyecto
-
-Puedes ver el proyecto en acción y obtener más información en el siguiente enlace:
-
-[Visitar el Proyecto](https://github.com/Yehan202/Yehan202.github.io)
-
-### Conclusión
-
-Este proyecto es solo el comienzo de muchas más innovaciones por venir. ¡Espero que lo encuentres útil y emocionante!
+<h2>Lista de Juegos</h2>
+<div class="juegos-lista">
+    {% for juego in site.data.juego.juegos %}
+        <div class="juego-item">
+            <h3>{{ juego.nombre }}</h3>
+            <p><strong>Tipo:</strong> {{ juego.tipo }}</p>
+            <p><strong>Empresa:</strong> {{ juego.empresa }}</p>
+        </div>
+    {% endfor %}
+</div>
 
