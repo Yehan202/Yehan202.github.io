@@ -1,0 +1,34 @@
+{
+    "juegos": [
+        {
+            "nombre": "Astro Bot",
+            "tipo": "Plataformas",
+            "empresa": "Japan Studio"
+        },
+        {
+            "nombre": "Black Myth Wukong",
+            "tipo": "Acción RPG",
+            "empresa": "Game Science"
+        },
+        {
+            "nombre": "Balatro",
+            "tipo": "Cartas",
+            "empresa": "Balatro Studios"
+        },
+        {
+            "nombre": "Elden Ring: Shadow of the Erdtree",
+            "tipo": "Acción RPG",
+            "empresa": "FromSoftware"
+        },
+        {
+            "nombre": "Final Fantasy VII",
+            "tipo": "JRPG",
+            "empresa": "Square Enix"
+        },
+        {
+            "nombre": "Metaphor",
+            "tipo": "JRPG",
+            "empresa": "Atlus"
+        }
+    ]
+}
