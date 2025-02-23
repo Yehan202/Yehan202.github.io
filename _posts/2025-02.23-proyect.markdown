@@ -1,11 +1,11 @@
 ---
-title: "Nuevo Proyecto: Mi Aplicación Web"
+title: "Proyecto: Mi Aplicación Web"
 layout: post
 date: 2025-02-23
 image: /assets/images/project.jpg
 headerImage: false
 tag:
-- proyectos
+- proyects
 - desarrollo
 star: true
 category: blog
