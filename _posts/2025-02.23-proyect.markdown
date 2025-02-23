@@ -1,15 +1,15 @@
 ---
-title: "Lista de Juegos con JSON"
+title: "Json"
 layout: post
-date: 2025-02-23
-image: /assets/images/project.jpg
+date: 2023-02-24 
+image: /assets/images/markdown.jpg
 headerImage: false
-tags:
-- json
+tag:
+- markdown
 star: true
 category: blog
 author: Yehan
-description: Descripción del nuevo proyecto de aplicación web
+description: Markdown summary with different options
 ---
 
 <h2>Lista de Juegos</h2>
