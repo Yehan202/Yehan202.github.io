@@ -24,14 +24,6 @@ title: "Lista de Juegos"
 layout: page
 ---
 
-## Lista de Juegos
-
-{% for juego in site.data.juego.juegos %}
-### {{ juego.nombre }}
-- **Tipo**: {{ juego.tipo }}
-- **Empresa**: {{ juego.empresa }}
-{% endfor %}
-
 ## 2. Mejor Juego de Acción: **ASTRO BOT**
 ![ASTRO BOT](/assets/images/astro_bot.jpg)
 ASTRO BOT también se llevó el premio al Mejor Juego de Acción. Su jugabilidad rápida y fluida, combinada con controles precisos y niveles bien diseñados, lo convierten en una experiencia de acción inigualable.
