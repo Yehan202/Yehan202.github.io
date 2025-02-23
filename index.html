@@ -2,4 +2,13 @@
 layout: page
 title: Home
 ---
+<h2>Lista de Juegos</h2>
+<div class="juegos-lista">
+    {% for juego in site.data.juego.juegos %}
+        <div class="juego-item">
+            <h3>{{ juego.nombre }}</h3>
+            <p><strong>Tipo:</strong> {{ juego.tipo }}</p>
+            <p><strong>Empresa:</strong> {{ juego.empresa }}</p>
+        </div>
+    {% endfor %}
 </div>
