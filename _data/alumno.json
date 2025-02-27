@@ -1,0 +1,28 @@
+{
+    "alumno": [
+        {
+            "nombre": "pepe",
+            "apellido": "Bot"
+        },
+        {
+            "nombre": "Bob",
+            "apellido": "steven"
+        },
+        {
+            "nombre": "Juan",
+            "apellido": "Perez"
+        },
+        {
+            "nombre": "Pedro",
+            "apellido": "Gomez"
+        },
+        {
+            "nombre": "Maria",
+            "apellido": "Gonzalez"
+        },
+        {
+            "nombre": "Luis",
+            "apellido": "Garcia"
+        }
+    ]
+}

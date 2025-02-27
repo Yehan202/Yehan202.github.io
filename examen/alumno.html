@@ -1,0 +1,16 @@
+
+
+
+<h1>Listado de Alumnos</h1>
+<nav>
+  <ul>
+    <li><a href="/examen/index.html">Inicio</a></li>
+    <li><a href="/examen/alumnos.html">Listado de Alumnos</a></li>
+    <li><a href="/examen/notas.html">Notas</a></li>
+  </ul>
+</nav>
+<ul>
+{% for alumno in site.data.alumno %}
+  <li>{{ alumno.nombre }} {{ alumno.apellido }}</li>
+{% endfor %}
+</ul>
